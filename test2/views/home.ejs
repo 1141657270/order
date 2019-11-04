@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title><%= title %></title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+  <h1><%= title %></h1>
+  <form action="data?a=1&b=2" method="POST">
+    <input type="text" name="text">
+    <input type="submit" value="提交">
+  </form>
+  <a href="http://localhost:3000/home">首页</a>
+  <a href="http://localhost:3000/channel/news">news</a>
+  <a href="http://localhost:3000/channel/sport">sport</a>
+  <a href="http://localhost:3000/channel/music">music</a>
+  你当前正在访问的页面为<%= title %>
+</body>
+
+</html>

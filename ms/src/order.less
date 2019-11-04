@@ -1,0 +1,230 @@
+ul {
+    list-style: none;
+}
+
+.total-box {
+    background: #ffffff;
+}
+.total {
+    background: rgba(0, 0, 0, 0.1);
+    position  : fixed;
+    top       : 0;
+    bottom    : 0;
+    left      : 0;
+    right     : 0;
+    z-index   : 100;
+
+}
+.one-box {
+    width        : 400px;
+    height       : 350px;
+    background   : #ffffff;
+    position     : relative;
+    margin       : 0 auto;
+    top          : 100px;
+    box-shadow   : 0px 0px 5px #888888;
+    border-radius: 5px;
+    z-index      : 101;
+
+    span {
+        float: right;
+
+        p {
+            float        : left;
+            width        : 50px;
+            height       : 40px;
+            border       : 1px solid #d6d6d6;
+            text-align   : center;
+            line-height  : 37px;
+            margin-top   : 20px;
+            margin-left  : 8px;
+            border-radius: 5px;
+            /* background: #FFFFFF;  */
+            font-size    : 13px;
+        }
+    }
+
+    ul {
+        position: absolute;
+        left    : 10px;
+        top     : 17px;
+
+        li {
+            /* text-align: left; */
+            width        : 380px;
+            height       : 60px;
+            margin-top   : 5px;
+            line-height  : 35px;
+
+            p {
+                font-size  : 20px;
+                font-weight: bold;
+            }
+
+            div {
+                height: 10px;
+            }
+            label{
+                input{
+                    float : right;
+                    height: 30px;
+                    width : 290px;
+                }
+            }
+        }
+    }
+}
+.blue {
+    background: #1f78fe;
+    color     : #ffffff;
+}
+
+.blue:hover {
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.07) inset;
+}
+
+.blue:active {
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.17) inset;
+}
+
+.yellow {
+    background: yellowgreen;
+    color     : #ffffff;
+}
+
+.yellow:hover {
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.07) inset;
+}
+
+.yellow:active {
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.17) inset;
+}
+
+.red {
+    background: red;
+    color     : #ffffff;
+}
+
+.red:hover {
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.07) inset;
+}
+
+.red:active {
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.17) inset;
+}
+
+.white {
+    background: white;
+    color     : #000000;
+}
+
+.white:hover {
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.07) inset;
+}
+
+.white:active {
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.17) inset;
+}
+
+.table {
+    width: 80%;
+    position: relative;
+    z-index : 80;
+    left: 0;
+}
+
+/* .table thead tr th{
+  text-align: left;
+  } */
+.table tr td div p {
+    float        : left;
+    width        : 40px;
+    height       : 40px;
+    border       : 1px solid #bbbbbb;
+    text-align   : center;
+    line-height  : 35px;
+    margin       : 0 auto;
+    margin-left  : 5px;
+    border-radius: 5px;
+    font-size    : 15px;
+}
+
+.span-box {
+    width   : 100px;
+    margin  : 0 auto;
+    position: relative;
+}
+
+.table tbody tr {
+    width          : 60%;
+    height         : 50px;
+    border-spacing : 0px;
+    border-collapse: collapse;
+    text-align     : center;
+}
+
+.table tbody tr:hover {
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.07) inset;
+}
+
+table td {
+    border-bottom: 1px solid #eee;
+}
+
+table tbody tr:nth-child(2n + 1) {
+    background: #fdfdfd;
+}
+
+table th {
+    height: 50px;
+    position: relative;
+}
+
+table th span input {
+    height       : 35px;
+    width        : 60%;
+    border-radius: 3px;
+}
+
+#main {
+    position: relative;
+    left: 0px;
+}
+
+.box1 {
+    width   : 80%;
+    margin  : 0 auto;
+    height  : 100px;
+    position: relative;
+}
+
+.box1-button {
+    width        : 80px;
+    height       : 40px;
+    border-radius: 8px;
+    background   : #1f78fe;
+    font-size    : 13px;
+    text-align   : center;
+    line-height  : 35px;
+    color        : #ffffff;
+    margin       : 0 auto;
+}
+
+.box1-button:hover {
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.07) inset;
+}
+
+.box1-button:active {
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.17) inset;
+}
+
+.box1 li {
+    position: relative;
+    float   : left;
+    width   : 200px;
+}
+
+.error {
+    color    : red;
+    font-size: 14px;
+}
